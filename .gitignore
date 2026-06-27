@@ -1,0 +1,13 @@
+# OS junk.
+.DS_Store
+Thumbs.db
+
+# Editor swap / backup files.
+*.swp
+*~
+*.bak
+*.tmp
+
+# Defense in depth -- the staging tree should be wholly produced by the
+# promotion script, but guard against accidental hand-edits leaking in.
+__pycache__/
